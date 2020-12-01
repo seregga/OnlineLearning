@@ -170,10 +170,8 @@
 
 /* LEARN */
 .learn {
-    height: 59.2rem;
-}
-.learn__info {
-    margin-top: 18.8rem;
+    margin-top: 13.5rem;
+    margin-bottom: 13.5rem;
 }
 .learn__text {
     margin: 0;
@@ -185,19 +183,12 @@
     color: #797979;
 }
 .learn__card {
-    margin-top: 13.5rem;
-    height: 294px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background: url() linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) center center no-repeat;
+    background-size: cover;
     border-radius: 4px;
     position: relative;
-    padding: 7.7rem 6rem 0 6rem;
+    padding: 7.7rem 6rem;
     box-sizing: border-box;
-}
-.learn__card-1 {
-    background: url(img/learn-1.jpg) no-repeat;
-}
-.learn__card-2 {
-    background: url(img/learn-2.jpg) no-repeat;
 }
 .learn__card-title {
     margin: 0;
@@ -219,8 +210,8 @@
 .learn__card-button {
     position: absolute;
     bottom: -2rem;
-    left: 10rem;
-    width: 17rem;
+    left: 25%;
+    width: 50%;
 }
 .learn__card-img {
     position: absolute;
@@ -230,13 +221,22 @@
 }
 
 /* follow */
-.follow {
+.follow::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     background: #F1F3F6;
     height: 26.3rem;
+    width: 100%;
+    z-index: -2;
+}
+.follow{
     padding-top: 5rem;
     box-sizing: border-box;
     position: relative;
-    z-index: -2;
+    margin-bottom: 15.8rem;
 }
 .follow__img {
     position: absolute;
@@ -254,7 +254,6 @@
     border-radius: 24px;
     padding-top: 4.1rem;
     box-sizing: border-box;
-    margin-bottom: 15.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
