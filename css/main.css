@@ -1,9 +1,9 @@
 :root{
-    font-family: 'Roboto';
     font-size: 10px;
 }
 body{
     margin: 0;
+    font-family: 'Roboto';
 }
 .button{
     height: 4rem;
