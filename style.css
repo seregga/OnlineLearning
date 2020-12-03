@@ -83,8 +83,8 @@
     position: absolute;
     width: 52.474rem;
     height: 86.755rem;
-    right: 6.8rem;
-    top: -19rem;
+    right: 8.3rem;
+    top: -18.9rem;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/main-bg.png);
     background-size: cover;
     background-position: center center;
@@ -99,7 +99,8 @@
     line-height: 7rem;
     color: #2B283A;
     margin: 0;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
 }
 .main-block__text{
     font-weight: normal;
@@ -128,6 +129,7 @@
     font-size: 2.4rem;
     line-height: 2.8rem;
     color: #2B283A;
+    margin-bottom: 0;
 }
 .banner__link{
     height: 4.1rem;
@@ -148,7 +150,7 @@
 /* LEARN */
 .learn {
     margin-top: 13.5rem;
-    margin-bottom: 13.5rem;
+    margin-bottom: 16.4rem;
 }
 .learn__text {
     margin: 0;
@@ -164,7 +166,7 @@
     background-size: cover;
     border-radius: 4px;
     position: relative;
-    padding: 7.7rem 6rem;
+    padding: 7.7rem 6rem 9rem;
     box-sizing: border-box;
 }
 .learn__card-title {
@@ -186,7 +188,7 @@
 }
 .learn__card-button {
     bottom: -2rem;
-    left: 25%;
+    left: calc(25% - .75rem);
 }
 .learn__card-img {
     position: absolute;
@@ -298,7 +300,7 @@
     margin-bottom: 9.1rem;
 }
 .students__title {
-    margin-bottom: 11rem;
+    margin-bottom: 10rem;
 }
 .students__review {
     height: 29.9rem;
@@ -306,11 +308,14 @@
     box-shadow: 0px 0px 2.8rem rgba(0, 0, 0, 0.1);
     border-radius: .8rem;
     position: relative;
-    padding: 10rem;
 }
 .students__review-img {
+    width: 11.7rem;
+    height: 11.7rem;
+    object-fit: cover;
+    border-radius: 100%;
     position: absolute;
-    left: 40%;
+    left: calc(50% - 5.85rem);
     top: -20%;
 }
 .students__review-text {
@@ -319,4 +324,164 @@
     font-size: 16px;
     line-height: 19px;
     color: #404040;
+    text-align: center;
+}
+.students__carousel-inner{
+    overflow: visible;
+}
+
+/* TEACHERS */
+.teachers{
+    padding-top: 5rem;
+}
+.teachers__background{
+    width: 100%;
+    height: 27.3rem;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.teachers__container{
+    padding-top: 5rem;
+}
+.teachers__title{
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 4.9rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+.teachers__img{
+    height: 22.5rem;
+    width: 100%;
+    background: url('img/ink.svg') center center no-repeat;
+    background-size: contain;
+}
+.teachers__photo{
+    width: 11.7rem;
+    height: 11.7rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.teachers__name{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #2B283A;
+    text-align: center;
+}
+.teachers__position{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #777777;
+    text-align: center;
+}
+.subscribe__banner{
+    height: 17.2rem;
+    background: linear-gradient(90.06deg, #FE6201 0.05%, #ED4B7C 99.94%);
+    border-radius: .8rem;
+}
+.subscribe__title{
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+    color: #FFFFFF;
+}
+.subscribe__input{
+    height: 5rem;
+    background: transparent;
+    border-radius: 2.4rem;
+    padding: 0 2.5rem;
+}
+.subscribe__input::placeholder{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #EBEBEB;
+}
+.subscribe__btn{
+    height: 5rem;
+    width: 5rem;
+    border: none;
+    background: #fff;
+    border-radius: 100%;
+    right: 0;
+    top: 0;
+}
+.subscribe{
+    position: relative;
+    top: 6rem;
+    margin-top: 8rem;
+}
+
+/* FOOTER */
+.footer{
+    padding-top: 10.8rem;
+    background: #F1F3F6;
+}
+.footer__menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer__menu-item{
+    margin-bottom: 2rem;
+}
+.footer__menu-link{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #7D7D7D;
+    text-decoration: none;
+}
+.footer__menu-link:hover{
+    color: #333;
+    text-decoration: none;
+}
+.footer__title{
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #000000;
+    margin-bottom: 3.2rem;
+}
+.footer__contact{
+    text-decoration: none;
+    color: #7D7D7D;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+.footer__contact:hover{
+    color: #333;
+    text-decoration: none;
+}
+.footer__icon{
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+    margin-right: 1.4rem;
+}
+.social__list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.social__icon{
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+}
+.copyright{
+    width: 100%;
+    background: #fff;
+    height: 4.6rem;
+}
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1170px;
+        padding: 0;
+    }
 }

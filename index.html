@@ -90,7 +90,7 @@
                         <h4 class="learn__card-title">Daily live classes</h4>
                         <p class="learn__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                             aliquam, purus sit amet luctus</p>
-                        <a href="#" class="learn__card-button button w-50 position-absolute">start learning</a>
+                        <div class="col position-absolute learn__card-button"><a href="#" class="button w-50">start learning</a></div>
                     </div>
                 </div>
                 <div class="col-4">
@@ -98,7 +98,7 @@
                         <h4 class="learn__card-title">Practice and revise</h4>
                         <p class="learn__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                             aliquam, purus sit amet luctus</p>
-                        <a href="#" class="learn__card-button button w-50 position-absolute">start learning</a>
+                        <div class="col position-absolute learn__card-button"><a href="#" class="button w-50">start learning</a></div>
                         <img src="img/points.svg" alt="иконка с группой точек" class="learn__card-img">
                     </div>
                 </div>
@@ -159,31 +159,186 @@
                 <div class="col-4">
                     <h3 class="students__title title-h3">What our students have to say</h3>
                     <div class="d-flex justify-content-center">
-                        <a href="#" class="students__link mr-5"><img src="img/students-arrow-left.svg"
-                                alt="иконка стрелки налево"></a>
-                        <a href="#" class="students__link"><img src="img/students-arrow-right.svg"
-                                alt="иконка стрелки направо"></a>
+                        <a href="#carouselExampleControls" role="button" data-slide="prev" class="students__link mr-5">
+                            <img src="img/students-arrow-left.svg" alt="иконка стрелки налево">
+                        </a>
+                        <a href="#carouselExampleControls" role="button" data-slide="next" class="students__link">
+                            <img src="img/students-arrow-right.svg" alt="иконка стрелки направо">
+                        </a>
                     </div>
                 </div>
-                <div class="students__review col-8 d-flex flex-column justify-content-center">
-                    <img src="img/students-img.jpg" alt="фото девушки" class="students__review-img">
-                    <div class="d-flex justify-content-start">
-                        <img src="img/quotes-top.svg" alt="иконка кавычек">
-                    </div>
-                    <p class="students__review-text">I work in project management and joined this course because I get
-                        great courses for less.
-                        The instructors are fantastic, interesting, and helpful. I plan to use this for a long time!
-                    </p>
-                    <div class="d-flex justify-content-end">
-                        <img src="img/quotes-bottom.svg" alt="иконка кавычек">
-                    </div>
-                    <div class="d-flex justify-content-end">
-                        <h4>- Zulaika</h4>
+                <div class="col-8">
+                    <div class="students__review">
+                        <div id="carouselExampleControls" class="h-100 carousel slide carousel-fade" data-ride="carousel">
+                            <div class="carousel-inner h-100 students__carousel-inner">
+                                <div class="carousel-item active h-100 py-5">
+                                    <img src="img/students-img.jpg" alt="фото девушки" class="students__review-img">
+                                    <div class="d-flex align-items-center h-100 justify-content-center">
+                                        <div class="w-75">
+                                            <div class="d-flex justify-content-start">
+                                                <img src="img/quotes-top.svg" alt="иконка кавычек">
+                                            </div>
+                                            <p class="students__review-text">I work in project management and joined this course because I get
+                                                great courses for less.
+                                                I work in project management and joined this course because I get
+                                                great courses for less.
+                                                I work in project management and joined this course because I get
+                                                great courses for less.
+                                                I work in project management and joined this course because I get
+                                                great courses for less.
+                                            </p>
+                                            <div class="d-flex justify-content-end">
+                                                <img src="img/quotes-bottom.svg" alt="иконка кавычек">
+                                            </div>
+                                            <div class="d-flex justify-content-end">
+                                                <h4>- Zulaika</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item students__carousel-item h-100 py-5">
+                                    <img src="https://365news.biz/wp-content/uploads/2019/06/2762843.jpg" alt="фото девушки" class="students__review-img">
+                                    <div class="d-flex align-items-center h-100 justify-content-center">
+                                        <div class="w-75">
+                                            <div class="d-flex justify-content-start">
+                                                <img src="img/quotes-top.svg" alt="иконка кавычек">
+                                            </div>
+                                            <p class="students__review-text">I work in project management and joined this course because I get
+                                                great courses for less.
+                                                The instructors are fantastic, interesting, and helpful. I plan to use this for a long time!
+                                            </p>
+                                            <div class="d-flex justify-content-end">
+                                                <img src="img/quotes-bottom.svg" alt="иконка кавычек">
+                                            </div>
+                                            <div class="d-flex justify-content-end">
+                                                <h4>- Amary</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item students__carousel-item h-100 py-5">
+                                    <img src="https://i.pinimg.com/736x/b6/65/0a/b6650a637a68def28d677f137f627b9d.jpg" alt="фото девушки" class="students__review-img">
+                                    <div class="d-flex align-items-center h-100 justify-content-center">
+                                        <div class="w-75">
+                                            <div class="d-flex justify-content-start">
+                                                <img src="img/quotes-top.svg" alt="иконка кавычек">
+                                            </div>
+                                            <p class="students__review-text">The instructors are fantastic, interesting, and helpful. I plan to use this for a long time!
+                                            </p>
+                                            <div class="d-flex justify-content-end">
+                                                <img src="img/quotes-bottom.svg" alt="иконка кавычек">
+                                            </div>
+                                            <div class="d-flex justify-content-end">
+                                                <h4>- Lux</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="teachers position-relative">
+            <img src="img/teachers-background.jpg" alt="фон" class="teachers__background position-absolute">
+            <div class="container teachers__container">
+                <div class="row">
+                    <h2 class="teachers__title title-h2 col-12">Our best teachers</h2>
+                    <div class="col-3 mt-5">
+                        <div class="teachers__img d-flex justify-content-center align-items-center">
+                            <img src="img/teachers1.jpg" alt="" class="teachers__photo">
+                        </div>
+                        <h4 class="teachers__name title-h4">Arthur Bell</h4>
+                        <p class="teachers__position">English teacher</p>
+                    </div>
+                    <div class="col-3 mt-5">
+                        <div class="teachers__img d-flex justify-content-center align-items-center">
+                            <img src="img/teachers2.jpg" alt="" class="teachers__photo">
+                        </div>
+                        <h4 class="teachers__name title-h4">Morris Howard</h4>
+                        <p class="teachers__position">Physics teacher</p>
+                    </div>
+                    <div class="col-3 mt-5">
+                        <div class="teachers__img d-flex justify-content-center align-items-center">
+                            <img src="img/teachers3.jpg" alt="" class="teachers__photo">
+                        </div>
+                        <h4 class="teachers__name title-h4">Brandon Pena</h4>
+                        <p class="teachers__position">History teacher</p>
+                    </div>
+                    <div class="col-3 mt-5">
+                        <div class="teachers__img d-flex justify-content-center align-items-center">
+                            <img src="img/teachers4.jpg" alt="" class="teachers__photo">
+                        </div>
+                        <h4 class="teachers__name title-h4">Shane Black</h4>
+                        <p class="teachers__position">History teacher</p>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section class="subscribe container">
+            <div class="row subscribe__banner align-items-center">
+                <h2 class="title-h2 subscribe__title offset-1 col-4">Subscribe for newsletter</h2>
+                <div class="offset-2 col-4">
+                    <form action="#" method="POST" class="subscribe__form position-relative">
+                        <input type="text" name="email" placeholder="Enter email address" class="subscribe__input w-100 border border-white">
+                        <button class="subscribe__btn position-absolute d-flex justify-content-center align-items-center">
+                            <img src="img/follow-arrow-red.svg" alt="стрелка">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <nav class="col-2">
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">IIT main</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">JEE advance</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Bank exams</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">UPSC</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">SSC exams</a></li>
+                    </ul>
+                </nav>
+                <nav class="col-2">
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">About</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Career</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Privacy policy</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Blogs</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts col-4 offset-1">
+                    <h4 class="footer__title title-h4">Contact us</h4>
+                    <a href="mailto:" class="footer__contact w-100 d-flex align-items-center">
+                        <img src="img/mail.svg" alt="" class="footer__icon">
+                        <span class="footer__contact-text">ramona.lowe@example.com</span>
+                    </a>
+                    <a href="#" class="footer__contact w-100 d-flex align-items-center">
+                        <img src="img/map.svg" alt="" class="footer__icon">
+                        <span class="footer__contact-text">8575 Nowlin Rd undefined Lewiston,
+                            Alabama 73143 United States</span>
+                    </a>
+                </div>
+                <div class="footer__contacts col-2">
+                    <h4 class="footer__title title-h4">Follow us</h4>
+                    <nav class="social">
+                        <ul class="social__list d-flex justify-content-between align-items-center">
+                            <li class="social__item"><a href="#" class="social__link"><img src="img/facebook.svg" alt="" class="social__icon"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"><img src="img/twiter.svg" alt="" class="social__icon"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"><img src="img/instagram.svg" alt="" class="social__icon"></a></li>
+                            <li class="social__item"><a href="#" class="social__link"><img src="img/youtube.svg" alt="" class="social__icon"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="copyright d-flex align-items-center justify-content-center">BY STUDENT OF SMART 2020</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 
