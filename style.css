@@ -211,7 +211,7 @@
     padding-top: 5rem;
     box-sizing: border-box;
     position: relative;
-    margin-bottom: 15.8rem;
+    margin-bottom: 24.5rem;
 }
 .follow__img {
     position: absolute;
@@ -291,4 +291,32 @@
     border-radius: 100%;
     margin-bottom: 3.4rem;
     margin-top: 2.5rem;
+}
+
+/* STUDENTS */
+.students {
+    margin-bottom: 9.1rem;
+}
+.students__title {
+    margin-bottom: 11rem;
+}
+.students__review {
+    height: 29.9rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2.8rem rgba(0, 0, 0, 0.1);
+    border-radius: .8rem;
+    position: relative;
+    padding: 10rem;
+}
+.students__review-img {
+    position: absolute;
+    left: 40%;
+    top: -20%;
+}
+.students__review-text {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #404040;
 }
