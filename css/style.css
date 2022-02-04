@@ -1,4 +1,4 @@
-@import url('css/main.css');
+@import url("main.css");
 
 /* HEADER */
 .header{
@@ -85,7 +85,7 @@
     height: 86.755rem;
     right: 8.3rem;
     top: -18.9rem;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/main-bg.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/main-bg.png);
     background-size: cover;
     background-position: center center;
     border-radius: 50rem;
@@ -295,6 +295,67 @@
     margin-top: 2.5rem;
 }
 
+
+/* мой вариант =STUDENTS=
+.students__row {
+    height: 29.9rem;
+}
+.students__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    color: #2B283A;
+    margin-bottom: 7rem;
+}
+.students__arrow {
+    width: 15rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.students__banner-content{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 100%;
+    padding: 7.3rem 10rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.students__img {
+    position: absolute;
+    top: -20%;
+    left: 43%;
+}
+.students__text {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #404040;
+}
+.students__text::before{
+    content: url(/img/quotes-top.svg);
+    display: block;
+    text-align: start;
+    
+}
+.students__text::after{
+    content: url(/img/quotes-bottom.svg);
+    display: block;
+    text-align: end; 
+}
+.students__subtext {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: end;
+    color: #000000;
+} */
+
 /* STUDENTS */
 .students {
     margin-bottom: 9.1rem;
@@ -479,6 +540,7 @@
     background: #fff;
     height: 4.6rem;
 }
+
 @media screen and (min-width: 1200px){
     .container{
         max-width: 1170px;
