@@ -1,20 +1,23 @@
 @import url("main.css");
 
 /* HEADER */
-.header{
+.header {
     height: 11.8rem;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
-.header__content{
+
+.header__content {
     height: 100%;
 }
-.header__logo{
+
+.header__logo {
     text-decoration: none;
 }
-.header__logo-top{
+
+.header__logo-top {
     font-family: 'Poppins';
     font-weight: 900;
     font-size: 1.69714rem;
@@ -24,7 +27,8 @@
     color: #FE6201;
     margin-top: 0.3rem;
 }
-.header__logo-bot{
+
+.header__logo-bot {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
@@ -33,13 +37,15 @@
     letter-spacing: 0.115em;
     color: #252525;
 }
-.menu__list{
+
+.menu__list {
     margin: 0;
     padding: 0;
     height: 100%;
     list-style: none;
 }
-.menu__link{
+
+.menu__link {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -47,10 +53,12 @@
     line-height: 2.1rem;
     color: #000000;
 }
-.menu__curent-page{
+
+.menu__curent-page {
     font-weight: 700;
 }
-.menu__curent-page::before{
+
+.menu__curent-page::before {
     content: "";
     display: inline-block;
     height: 1.3rem;
@@ -67,32 +75,36 @@
     height: 73.9rem;
     overflow: hidden;
 }
+
 .main-block__img1 {
     position: absolute;
     top: 14.9rem;
     right: 60.4rem;
     z-index: -1;
 }
+
 .main-block__img2 {
     position: absolute;
     bottom: 16.2rem;
     right: 9.9rem;
     z-index: -1;
 }
-.main-block__background{
+
+.main-block__background {
     position: absolute;
     width: 52.474rem;
     height: 86.755rem;
     right: 8.3rem;
     top: -18.9rem;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/main-bg.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/main-bg.png);
     background-size: cover;
     background-position: center center;
     border-radius: 50rem;
     transform: rotate(38.15deg);
     z-index: -1;
 }
-.main-block__title{
+
+.main-block__title {
     font-style: normal;
     font-weight: bold;
     font-size: 6rem;
@@ -102,7 +114,8 @@
     margin-bottom: 5rem;
     padding-top: 5rem;
 }
-.main-block__text{
+
+.main-block__text {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
@@ -111,27 +124,30 @@
 }
 
 /* BANNER */
-.banner{
+.banner {
     height: 17.1rem;
     background: #FFFFFF;
     box-shadow: 0px 0px 1.2rem rgba(0, 0, 0, 0.1);
     border-radius: .8rem;
     position: relative;
 }
+
 .banner__img {
     position: absolute;
     z-index: -1;
     left: -7.2rem;
     bottom: -2.772rem;
 }
-.banner__title{
+
+.banner__title {
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 2.8rem;
     color: #2B283A;
     margin-bottom: 0;
 }
-.banner__link{
+
+.banner__link {
     height: 4.1rem;
     background: #3D2B99;
     box-shadow: 0px .8rem 1.2rem rgba(61, 43, 153, 0.3);
@@ -152,6 +168,7 @@
     margin-top: 13.5rem;
     margin-bottom: 16.4rem;
 }
+
 .learn__text {
     margin: 0;
     margin-top: 3.2rem;
@@ -161,6 +178,7 @@
     line-height: 2.1rem;
     color: #797979;
 }
+
 .learn__card {
     background: url() linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) center center no-repeat;
     background-size: cover;
@@ -169,6 +187,7 @@
     padding: 7.7rem 6rem 9rem;
     box-sizing: border-box;
 }
+
 .learn__card-title {
     margin: 0;
     margin-bottom: 3.1rem;
@@ -178,6 +197,7 @@
     text-align: center;
     color: #FFFFFF;
 }
+
 .learn__card-text {
     margin: 0;
     font-weight: bold;
@@ -186,10 +206,12 @@
     text-align: center;
     color: #F2F2F2;
 }
+
 .learn__card-button {
     bottom: -2rem;
     left: calc(25% - .75rem);
 }
+
 .learn__card-img {
     position: absolute;
     z-index: -1;
@@ -209,22 +231,26 @@
     width: 100%;
     z-index: -2;
 }
-.follow{
+
+.follow {
     padding-top: 5rem;
     box-sizing: border-box;
     position: relative;
     margin-bottom: 24.5rem;
 }
+
 .follow__img {
     position: absolute;
     top: 12rem;
     left: 5.5rem;
     z-index: -1;
 }
+
 .follow__title {
     text-align: center;
     margin-bottom: 4.7rem;
 }
+
 .follow__card {
     background: linear-gradient(34.87deg, #4776E6 1.22%, #8E54E9 97.88%);
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
@@ -235,12 +261,15 @@
     flex-direction: column;
     align-items: center;
 }
+
 .follow__card-green {
     background: linear-gradient(90deg, #ADD100 0%, #7B920A 100%);
 }
+
 .follow__card-red {
     background: linear-gradient(33.88deg, #FE6201 6.73%, #ED4B7C 96.13%);
 }
+
 .follow__card-title {
     margin: 0;
     margin-bottom: 2.9rem;
@@ -249,8 +278,9 @@
     font-size: 2.4rem;
     line-height: 2.8rem;
     color: #FFFFFF;
-    
+
 }
+
 .follow__card-text {
     margin: 0 auto;
     margin-bottom: 4.1rem;
@@ -261,6 +291,7 @@
     text-align: center;
     color: #FFFFFF;
 }
+
 .follow__card-list {
     margin: 0;
     padding: 0;
@@ -271,12 +302,14 @@
     color: #FFFFFF;
     display: block;
 }
+
 .follow__card-item {
     display: flex;
     align-items: center;
     margin-bottom: 2.2rem;
     margin-left: -2.5rem;
 }
+
 .follow__card-item::before {
     content: "";
     height: .2rem;
@@ -284,6 +317,7 @@
     background: #FFFFFF;
     margin-right: 1.9rem;
 }
+
 .follow__card-link {
     display: flex;
     justify-content: center;
@@ -296,73 +330,15 @@
 }
 
 
-/* мой вариант =STUDENTS=
-.students__row {
-    height: 29.9rem;
-}
-.students__title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 42px;
-    line-height: 49px;
-    color: #2B283A;
-    margin-bottom: 7rem;
-}
-.students__arrow {
-    width: 15rem;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-.students__banner-content{
-    background: #FFFFFF;
-    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    height: 100%;
-    padding: 7.3rem 10rem;
-    box-sizing: border-box;
-    position: relative;
-}
-.students__img {
-    position: absolute;
-    top: -20%;
-    left: 43%;
-}
-.students__text {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #404040;
-}
-.students__text::before{
-    content: url(/img/quotes-top.svg);
-    display: block;
-    text-align: start;
-    
-}
-.students__text::after{
-    content: url(/img/quotes-bottom.svg);
-    display: block;
-    text-align: end; 
-}
-.students__subtext {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: end;
-    color: #000000;
-} */
-
 /* STUDENTS */
 .students {
     margin-bottom: 9.1rem;
 }
+
 .students__title {
     margin-bottom: 10rem;
 }
+
 .students__review {
     height: 29.9rem;
     background: #FFFFFF;
@@ -370,6 +346,7 @@
     border-radius: .8rem;
     position: relative;
 }
+
 .students__review-img {
     width: 11.7rem;
     height: 11.7rem;
@@ -379,6 +356,7 @@
     left: calc(50% - 5.85rem);
     top: -20%;
 }
+
 .students__review-text {
     font-style: italic;
     font-weight: normal;
@@ -387,81 +365,94 @@
     color: #404040;
     text-align: center;
 }
-.students__carousel-inner{
+
+.students__carousel-inner {
     overflow: visible;
 }
 
 /* TEACHERS */
-.teachers{
+.teachers {
     padding-top: 5rem;
 }
-.teachers__background{
+
+.teachers__background {
     width: 100%;
     height: 27.3rem;
     top: 0;
     left: 0;
     z-index: -1;
 }
-.teachers__container{
+
+.teachers__container {
     padding-top: 5rem;
 }
-.teachers__title{
+
+.teachers__title {
     font-weight: 700;
     font-size: 4.2rem;
     line-height: 4.9rem;
     text-align: center;
     color: #FFFFFF;
 }
-.teachers__img{
+
+.teachers__img {
     height: 22.5rem;
     width: 100%;
     background: url('img/ink.svg') center center no-repeat;
     background-size: contain;
 }
-.teachers__photo{
+
+.teachers__photo {
     width: 11.7rem;
     height: 11.7rem;
     object-fit: cover;
     border-radius: 100%;
 }
-.teachers__name{
+
+.teachers__name {
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 2.8rem;
     color: #2B283A;
     text-align: center;
 }
-.teachers__position{
+
+.teachers__position {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 2.1rem;
     color: #777777;
     text-align: center;
 }
-.subscribe__banner{
+
+.subscribe__banner {
     height: 17.2rem;
     background: linear-gradient(90.06deg, #FE6201 0.05%, #ED4B7C 99.94%);
     border-radius: .8rem;
 }
-.subscribe__title{
+
+.subscribe__title {
     font-weight: 700;
     font-size: 3.2rem;
     line-height: 3.7rem;
     color: #FFFFFF;
 }
-.subscribe__input{
+
+.subscribe__input {
     height: 5rem;
     background: transparent;
     border-radius: 2.4rem;
     padding: 0 2.5rem;
 }
-.subscribe__input::placeholder{
+
+.subscribe__input::placeholder {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 2.1rem;
     color: #EBEBEB;
 }
-.subscribe__btn{
+
+.subscribe__btn {
     height: 5rem;
     width: 5rem;
     border: none;
@@ -470,44 +461,51 @@
     right: 0;
     top: 0;
 }
-.subscribe{
+
+.subscribe {
     position: relative;
     top: 6rem;
     margin-top: 8rem;
 }
 
 /* FOOTER */
-.footer{
+.footer {
     padding-top: 10.8rem;
     background: #F1F3F6;
 }
-.footer__menu{
+
+.footer__menu {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.footer__menu-item{
+
+.footer__menu-item {
     margin-bottom: 2rem;
 }
-.footer__menu-link{
+
+.footer__menu-link {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.9rem;
     color: #7D7D7D;
     text-decoration: none;
 }
-.footer__menu-link:hover{
+
+.footer__menu-link:hover {
     color: #333;
     text-decoration: none;
 }
-.footer__title{
+
+.footer__title {
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 2.8rem;
     color: #000000;
     margin-bottom: 3.2rem;
 }
-.footer__contact{
+
+.footer__contact {
     text-decoration: none;
     color: #7D7D7D;
     margin-bottom: 2.5rem;
@@ -515,34 +513,39 @@
     font-size: 1.6rem;
     line-height: 1.9rem;
 }
-.footer__contact:hover{
+
+.footer__contact:hover {
     color: #333;
     text-decoration: none;
 }
-.footer__icon{
+
+.footer__icon {
     height: 2rem;
     width: 2rem;
     object-fit: contain;
     margin-right: 1.4rem;
 }
-.social__list{
+
+.social__list {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-.social__icon{
+
+.social__icon {
     height: 2rem;
     width: 2rem;
     object-fit: contain;
 }
-.copyright{
+
+.copyright {
     width: 100%;
     background: #fff;
     height: 4.6rem;
 }
 
-@media screen and (min-width: 1200px){
-    .container{
+@media screen and (min-width: 1200px) {
+    .container {
         max-width: 1170px;
         padding: 0;
     }
